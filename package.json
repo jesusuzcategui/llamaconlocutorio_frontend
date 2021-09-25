@@ -1,5 +1,6 @@
 {
   "name": "llamaconlocutorio_frontend",
+  "homepage": "https://llamaconlocutorios.com/demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

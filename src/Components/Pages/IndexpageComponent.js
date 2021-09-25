@@ -33,7 +33,7 @@ function Indexpage(){
                             <MDBCardBody style={{padding: "0"}}>
                                 <img style={{
                                     width: "100%"
-                                }} src="/assets/libre.jpeg" alt="Cover de Plan libre"/>
+                                }} src="assets/libre.jpeg" alt="Cover de Plan libre"/>
                             </MDBCardBody>
                             <MDBCardFooter style={{padding: "0"}}s>
                                 <MDBBtn block={true} onClick={() => OpenContrat('/contract/libre', 'LIBRE') }>CONTRATAR</MDBBtn>
@@ -45,7 +45,7 @@ function Indexpage(){
                             <MDBCardBody style={{padding: "0"}}>
                                 <img style={{
                                     width: "100%"
-                                }} src="/assets/solo_ida_venezuela.jpeg" alt="Cover de Plan ida venezuela"/>
+                                }} src="assets/solo_ida_venezuela.jpeg" alt="Cover de Plan ida venezuela"/>
                             </MDBCardBody>
                             <MDBCardFooter style={{padding: "0"}}>
                                 <MDBBtn block={true}  onClick={() => OpenContrat('/contract/idavnzla', 'IDAVENEZUELA') }>CONTRATAR</MDBBtn>
@@ -57,7 +57,7 @@ function Indexpage(){
                             <MDBCardBody style={{padding: "0"}}>
                                 <img style={{
                                     width: "100%"
-                                }} src="/assets/solo_ida_y_vuelta_venezuela.jpeg" alt="Cover de Plan ida y vuelta venezuela"/>
+                                }} src="assets/solo_ida_y_vuelta_venezuela.jpeg" alt="Cover de Plan ida y vuelta venezuela"/>
                             </MDBCardBody>
                             <MDBCardFooter style={{padding: "0"}}>
                                 <MDBBtn block={true} onClick={() => OpenContrat('/contract/idayvueltavnzla', 'IDAYEVUELTAVENEZUELA') }>CONTRATAR</MDBBtn>

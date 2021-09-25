@@ -25,7 +25,7 @@ class Header extends Component
                 <MDBNavbar expand='lg' light bgColor='white'>
                     <MDBContainer fluid>
                         <div className={"d-flex justify-content-between w-100"}>
-                            <Link to={"/"}><img style={{width: "100px"}} src={"/assets/logo_color.png"} alt={"Logo de locutorios"} /></Link>
+                            <Link to={"/"}><img style={{width: "100px"}} src={"assets/logo_color.png"} alt={"Logo de locutorios"} /></Link>
                             <MDBNavbarNav right className='justify-content-end w-100 d-flex flex-row mb-2 mb-lg-0'>
                                 <MDBNavbarItem style={{marginRight: "15px"}}>
                                     <MDBNavbarLink target="_blank" href='https://www.facebook.com/locutorios.cl/'>
@@ -49,7 +49,7 @@ class Header extends Component
 
                 <div
                     className='p-5 text-center bg-image'
-                    style={{ backgroundImage: "url('/assets/baner_llama_con_locutorios.jpeg')", height: 500 }}
+                    style={{ backgroundImage: "url('assets/baner_llama_con_locutorios.jpeg')", height: 500 }}
                 >
                 </div>
             </header>

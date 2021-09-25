@@ -9,7 +9,7 @@ import Checkoutpage from "./Pages/Checkout";
 
 const Main = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/demo">
             <Header />
             <Switch>
                 <Route path="/home" component={Indexpage}/>
